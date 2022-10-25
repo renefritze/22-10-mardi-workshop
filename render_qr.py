@@ -20,3 +20,7 @@ make_link(
     "https://renefritze.github.io/22-10-mardi-workshop",
     "qr_self.png",
 )
+make_link(
+    "https://github.com/MaRDI4NFDI/open-interfaces/",
+    "qr_oif.png",
+)
