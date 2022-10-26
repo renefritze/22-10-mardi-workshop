@@ -123,7 +123,6 @@ that enabled her to plug in a tool that does the bindings for her?
 
 - develop and establish open interface standards
 - interconnect disparate numerical softwares
-- provide abstractions for the benchmark framework
 
 ---
 
@@ -146,7 +145,7 @@ their implementation language.
 
 <div>
 
-## Prototype
+# Prototype
 
 [https://github.com/MaRDI4NFDI/open-interfaces/](https://github.com/MaRDI4NFDI/open-interfaces/)
 
@@ -196,7 +195,7 @@ sequenceDiagram
 
 ---
 
-# Algorithm test cases
+## Algorithm test cases
 
 1. String expression evaluation
 2. Linear system solve
@@ -205,7 +204,7 @@ sequenceDiagram
 
 ---
 
-# API Design
+## API Design
 
 ```C
 // Connector's interface (What the Drivers, aka Alice, see)
@@ -218,7 +217,7 @@ void oif_connector_deinit();
 
 ---
 
-# API Design
+## API Design
 
 ```C
 // Implementor's interface (What the Connector sees)
@@ -231,7 +230,7 @@ void oif_lang_deinit();
 
 ---
 
-# Python -> Julia Example
+## Python -> Julia Example
 
 ```mermaid
 sequenceDiagram
@@ -250,7 +249,7 @@ sequenceDiagram
 
 ---
 
-# Available Drivers and Implementors
+## Available Drivers and Implementors
 
 - C
 - C++
@@ -259,8 +258,51 @@ sequenceDiagram
 - (R)
 
 ---
-
-# Misc
+<!--
+## Misc
 
 - Testing all Driver -> Implementor Combinations (with pytest)
-- Documentation Setup (Sphinx + Doxygen via breathe)
+- Documentation Setup (Sphinx + Doxygen via breathe) -->
+
+---
+
+# The future
+
+- Evolve the prototype with pyMOR as an incubator.
+- Reach out to other potential pilot users.
+- Provide abstractions for the benchmark framework.
+
+---
+
+# The far future
+
+- Community created, machine readable, composable, API specifications.
+
+---
+
+# The far future
+
+- Code generator for multiple languages that consumes these specs.
+
+---
+
+# The far future
+
+- Multiple "backends" for data transfer
+
+---
+
+<div class="container">
+
+<div>
+
+## Questions?
+
+[https://renefritze.github.io/22-10-mardi-workshop](https://renefritze.github.io/22-10-mardi-workshop)
+
+</div>
+
+<div>
+<img src="qr_self.png" />
+</div>
+</div>
