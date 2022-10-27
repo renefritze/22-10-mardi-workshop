@@ -52,6 +52,10 @@ revealOptions:
 
 ---
 
+<img src="MaRDI_Logo_S_rgba_5_blue_negative.svg" alt="MaRDI" />
+
+---
+
 # Outline
 
 1. A story
