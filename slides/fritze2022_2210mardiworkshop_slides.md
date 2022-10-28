@@ -41,7 +41,7 @@ revealOptions:
 
 ## Get the slides
 
-[https://renefritze.github.io/22-10-mardi-workshop](https://renefritze.github.io/22-10-mardi-workshop)
+[https://rene.fritze.me/22-10-mardi-workshop](https://rene.fritze.me/22-10-mardi-workshop)
 
 </div>
 
@@ -52,7 +52,8 @@ revealOptions:
 
 ---
 
-<img src="MaRDI_Logo_S_rgba_5_blue_negative.svg" alt="MaRDI" />
+<img height="300px" src="WWUMuenster_Logo_2021_negativ.png" alt="MaRDI" />
+<img height="300px" src="MaRDI_Logo_L_5_rgba.png" alt="MaRDI TA2" style="background-color:white"/>
 
 ---
 
@@ -127,12 +128,13 @@ that enabled her to plug in a tool that does the bindings for her?
 
 - develop and establish open interface standards
 - interconnect disparate numerical softwares
+- lower the "I" barrier in FAIR
 
 ---
 
 ## interface standards
 
-- data abstractions specifications
+- data abstraction specifications
 - API requirements for algorithms
 
 ---
@@ -270,11 +272,19 @@ sequenceDiagram
 
 ---
 
+# The near future
+
+- Learn more from existing interopability projects like xSDK,
+  FlexiBLAS, preCICE, FitBenchmarking
+- Complete native, parametrized test suites for all drivers
+
+---
+
 # The future
 
 - Evolve the prototype with pyMOR as an incubator.
 - Reach out to other potential pilot users.
-- Provide abstractions for the benchmark framework.
+- Provide abstractions for the benchmark framework (MaRDI TA2).
 
 ---
 
@@ -296,13 +306,19 @@ sequenceDiagram
 
 ---
 
+# The far future
+
+- Implementing openInterfaces becomes community-wide best practice
+
+---
+
 <div class="container">
 
 <div>
 
 ## Questions?
 
-[https://renefritze.github.io/22-10-mardi-workshop](https://renefritze.github.io/22-10-mardi-workshop)
+[https://rene.fritze.me/22-10-mardi-workshop](https://rene.fritze.me/22-10-mardi-workshop)
 
 </div>
 
